@@ -9,6 +9,7 @@ function App() {
       const result = await res.json();
 
       console.log(result);
+      console.log("hello")
     };
     getData();
   }, []);
